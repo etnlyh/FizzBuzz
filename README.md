@@ -217,7 +217,7 @@ a sequence of three git commands:
 1. `git add src/lab1/FizzBuzz.java`
    - this tells git to "stage" our changes to `FizzBuzz.java`. If you run `git status` again, you will see
    that `FizzBuzz.java` has a new status.
-2. `git commit -m "refactored to extract helper method"`
+2. `git commit -m "refactored to extract helper method"`  
    - this actually records your changes to all "staged" files to your local git repository. You can again
    run `git status` to see what has happened.
    - And if you run `git log`, you will see a record of _all_ commits made so far in the repository.
